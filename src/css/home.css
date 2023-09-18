@@ -1,0 +1,188 @@
+body {
+    zoom: 1;
+    background-color: rgba(var(--bg-clr, var(--color_11)));
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: visible;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+h1, h2 {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    margin-top: 30vh;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+@media (max-width: 750px) {
+    #background-video {
+        display: none;
+    }
+}
+
+#comp-ll2sv7go1 {
+    --stroke-width: 1;
+    --fill-opacity: 0;
+    --stroke: #FFFFFF;
+    --stroke-opacity: 1;
+    --fill: #3F7652;
+    --svg-calculated-padding: 0px 1px 1px 0px;
+    --svg-calculated-width: calc(70% - 1px);
+    --svg-calculated-height: calc(100% - 1px);
+}
+
+#comp-ll2sv7go1 {
+    width: 952px;
+    height: 910px;
+}
+
+.R8rhQA svg, .elfY4_ svg {
+    overflow: visible!important;
+}
+.aizuI7 svg {
+    height: var(--svg-calculated-height,100%);
+    margin: auto;
+    padding: var(--svg-calculated-padding,0);
+    width: var(--svg-calculated-width,100%);
+}
+.aizuI7, .aizuI7 svg {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    top: 5%;
+}
+.TcoJIb * {
+    vector-effect: non-scaling-stroke;
+}
+user agent stylesheet
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+.aizuI7 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    fill: var(--fill);
+    fill-opacity: var(--fill-opacity);
+    stroke: var(--stroke);
+    stroke-opacity: var(--stroke-opacity);
+    stroke-width: var(--stroke-width);
+    filter: var(--drop-shadow,none);
+    opacity: var(--opacity);
+    transform: var(--flip);
+}
+
+:root, :host, .spxThemeOverride {
+    --color_0: 255, 255, 255;
+    --color_44: 255, 255, 255;
+    --color_22: 243, 167, 143;
+    --color_1: 255, 255, 255;
+    --color_2: 0, 0, 0;
+    --color_3: 237, 28, 36;
+    --color_4: 0, 136, 203;
+    --color_5: 255, 203, 5;
+    --color_6: 114, 114, 114;
+    --color_7: 176, 176, 176;
+    --color_8: 255, 255, 255;
+    --color_23: 237, 88, 41;
+    --color_9: 114, 114, 114;
+    --color_10: 176, 176, 176;
+    --color_11: 0, 0, 0;
+    --color_12: 57, 52, 48;
+    --color_13: 113, 105, 97;
+    --color_14: 226, 209, 193;
+    --color_15: 226, 209, 193;
+    --color_16: 229, 240, 254;
+    --color_17: 200, 224, 254;
+    --color_18: 0, 0, 0;
+    --color_24: 158, 59, 27;
+    --color_19: 0, 58, 150;
+    --color_20: 0, 29, 75;
+    --color_25: 79, 29, 14;
+    --color_26: 210, 172, 247;
+    --color_27: 186, 131, 240;
+    --color_28: 128, 21, 232;
+    --color_29: 85, 14, 155;
+    --color_30: 43, 7, 77;
+    --color_31: 177, 211, 187;
+    --color_32: 127, 168, 139;
+    --color_33: 64, 124, 81;
+    --color_34: 43, 83, 54;
+    --color_35: 21, 41, 27;
+    --color_36: 0, 0, 0;
+    --color_37: 226, 209, 193;
+    --color_38: 57, 52, 48;
+    --color_39: 113, 105, 97;
+    --color_40: 170, 157, 145;
+    --font_0: normal normal normal 60px/1.4em roboto-thin, roboto, sans-serif;
+    --color_45: 226, 209, 193;
+    --color_41: 0, 0, 0;
+    --color_46: 226, 209, 193;
+    --color_47: 170, 157, 145;
+    --color_48: 0, 0, 0;
+    --color_49: 0, 0, 0;
+    --color_50: 0, 0, 0;
+    --color_51: 0, 0, 0;
+    --color_52: 0, 0, 0;
+    --color_53: 0, 0, 0;
+    --color_54: 113, 105, 97;
+    --color_55: 113, 105, 97;
+    --color_56: 0, 0, 0;
+    --color_57: 0, 0, 0;
+    --color_58: 0, 0, 0;
+    --color_59: 0, 0, 0;
+    --color_42: 0, 0, 0;
+    --color_60: 0, 0, 0;
+    --color_61: 0, 0, 0;
+    --color_62: 0, 0, 0;
+    --color_63: 0, 0, 0;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    --font_2: normal normal normal 40px/1.4em roboto-thin, roboto, sans-serif;
+    --font_3: normal normal normal 38px/1.4em helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    --font_4: normal normal normal 35px/1.4em helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+    --font_5: normal normal normal 27px/1.4em helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+    --font_6: normal normal normal 25px/1.4em helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    --font_7: normal normal normal 22px/1.4em helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+    --font_8: normal normal normal 16px/1.4em helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+    --color_64: 113, 105, 97;
+    --color_21: 249, 197, 180;
+    --font_9: normal normal normal 14px/1.4em helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    --wix-ads-height: 0px;
+    --wix-ads-top-height: 0px;
+    --site-width: 980px;
+    --above-all-z-index: 100000;
+    --portals-z-index: 100001;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --minViewportSize: 320;
+    --maxViewportSize: 1920;
+    --color_65: 113, 105, 97;
+    --color_43: 199, 199, 199;
+    --theme-spx-ratio: 1px;
+}
