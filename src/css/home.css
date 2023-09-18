@@ -130,6 +130,21 @@ section {
     overflow: visible;
 }
 
+
+.rich-text__text {
+    color: #FFFFFF;
+}
+
+.KcpHeO {
+    word-wrap: break-word;
+    direction: var(--text-direction);
+    min-height: var(--min-height);
+    min-width: var(--min-width);
+    overflow-wrap: break-word;
+    pointer-events: none;
+    text-align: start;
+}
+
 :root, :host, .spxThemeOverride {
     --color_0: 255, 255, 255;
     --color_44: 255, 255, 255;
