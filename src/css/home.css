@@ -8,6 +8,7 @@ body {
     right: 0;
     top: 0;
     visibility: visible;
+    --scrollbar-width: 0px;
 }
 
 #background-video {
@@ -44,7 +45,7 @@ h2 {
     }
 }
 
-#comp-ll2sv7go1 {
+#videoBox {
     --stroke-width: 1;
     --fill-opacity: 0;
     --stroke: #FFFFFF;
@@ -55,37 +56,36 @@ h2 {
     --svg-calculated-height: calc(100% - 1px);
 }
 
-#comp-ll2sv7go1 {
+#videoBox {
     width: 952px;
     height: 910px;
 }
 
-.R8rhQA svg, .elfY4_ svg {
+.videoBoxClass3 svg, .elfY4_ svg {
     overflow: visible!important;
 }
-.aizuI7 svg {
+.videoBoxClass1 svg {
     height: var(--svg-calculated-height,100%);
     margin: auto;
     padding: var(--svg-calculated-padding,0);
     width: var(--svg-calculated-width,100%);
 }
-.aizuI7, .aizuI7 svg {
+.videoBoxClass1, .videoBoxClass1 svg {
     bottom: 0;
     left: 0;
     position: absolute;
     right: 0;
-    top: 0;
-    top: 5%;
+    top: 8%;
 }
-.TcoJIb * {
+.videoBoxClass2 * {
     vector-effect: non-scaling-stroke;
 }
 user agent stylesheet
 svg:not(:root) {
-    overflow-clip-margin: content-box;
-    overflow: hidden;
+    /* overflow-clip-margin: content-box;
+    overflow: hidden; */
 }
-.aizuI7 {
+.videoBoxClass1 {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     fill: var(--fill);
     fill-opacity: var(--fill-opacity);
@@ -95,6 +95,39 @@ svg:not(:root) {
     filter: var(--drop-shadow,none);
     opacity: var(--opacity);
     transform: var(--flip);
+}
+
+#videoDiv {
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows: repeat(8, min-content) 1fr;
+    grid-template-columns: 100%;
+}
+
+#section1 {
+    --fill-layer-image-opacity: 1;
+    --fill-layer-video-opacity: 1;
+    --bg-overlay-color: rgb(252, 243, 233);
+    --bg-gradient: none;
+    min-width: 980px;
+}
+
+#section1 {
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 980px;
+}
+
+section {
+    display: block;
+}
+
+.overflowVisible {
+    overflow: visible;
 }
 
 :root, :host, .spxThemeOverride {
